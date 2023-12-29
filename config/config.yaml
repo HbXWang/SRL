@@ -1,0 +1,31 @@
+# general
+seed: 42
+workers: 4
+devices: "6"
+dataset_dir: ""
+
+# train options
+k_crops: 3
+batch_size: 128
+image_size: 32
+start_epoch: 0
+epoch_num: 2000
+dataset: "cifar-10"  # "cifar-10"/"cifar-100"/"ImageNet-10"/"ImageNet-dogs"/"stl-10"
+
+# model options
+base_model: "ResNet18"
+feature_dim: 128
+model_save_dir: "./results"
+reload: False
+
+# loss options
+lambda_l: 0.25
+learning_rate: 0.03
+momentum: 0.9
+lambda_parameter: 0.5  # 0.5 for cifar10/100, 1.0 for stl10,imagenet-10,imagenet-dogs
+local_structure_driven_temperature: 0.5
+global_structure_driven_temperature: 1.0
+
+# data transform
+mean: [0.4914, 0.4822, 0.4465]
+std: [0.2470, 0.2435, 0.2616]

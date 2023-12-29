@@ -1,7 +1,7 @@
 # Structure-dirven representation learning for deep clustering (SRL)
 
 This is our PyTorch implementation for the paper:
-Xiang Wang, Huafeng Liu, Liping Jing Jian Yu. Structure-driven Representation Learning for Deep Clustering. ACM Transactions on Knowledge Discovery from Data (TKDD), 2023.
+> Xiang Wang, Huafeng Liu, Liping Jing Jian Yu. Structure-driven Representation Learning for Deep Clustering. ACM Transactions on Knowledge Discovery from Data (TKDD), 2023.
 
 
 # Dependency
